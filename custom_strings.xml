@@ -4,8 +4,8 @@
     <!-- Settings -->
     <string name="settings_toolbar">Settings</string>
     <string name="home_category_theme">Theming</string>
-    <string name="home_category_theme_subcategory_colours">Colors</string>
-    <string name="home_category_theme_subcategory_colours_summary">Theme, drawer and widget colors</string>
+    <string name="home_category_theme_subcategory_colors">Colors</string>
+    <string name="home_category_theme_subcategory_colors_summary">Theme, drawer and widget colors</string>
     <string name="home_category_theme_subcategory_iconography">Iconography</string>
     <string name="home_category_theme_subcategory_iconography_summary">Detailed icon customization</string>
     <string name="home_category_theme_subcategory_typography">Typography</string>
@@ -27,7 +27,7 @@
     <string name="home_category_advanced_subcategory_debugging_summary">Something not working?</string>
     <string name="home_category_backup_reset_subcategory_backup_reset">Profile manager</string>
     <string name="home_category_backup_reset_subcategory_backup_reset_summary">Manage saved desktop layouts</string>
-    <string name="home_category_backup_reset_subcategory_backup_reset_summary_permission_needed">To backup and restore, enable storage permissions.</string>
+    <string name="home_category_backup_reset_subcategory_backup_reset_summary_permission_needed">To backup and restore, tap here to grant the storage permission.</string>
     <string name="home_category_set_default_home">Reassign system launcher</string>
     <string name="home_category_set_default_home_summary">No default launcher set</string>
 
@@ -49,12 +49,12 @@
     <string name="contact_support_summary">Having issues? Feature requests?</string>
 
     <!-- Main Category: Colors -->
-    <string name="theming_category_theme">Launcher theme</string>
-    <string name="launcher_theme_light">Light theme</string>
-    <string name="launcher_theme_dark">Dark theme</string>
-    <string name="launcher_theme_black">Black theme</string>
-    <string name="launcher_theme_transparent">Transparent theme</string>
-    <string name="launcher_theme_accent_color">Accent color</string>
+    <string name="theming_category_theme">Theme</string>
+    <string name="launcher_theme_light">Light</string>
+    <string name="launcher_theme_dark">Dark</string>
+    <string name="launcher_theme_black">Black</string>
+    <string name="launcher_theme_transparent">Transparent</string>
+    <string name="launcher_theme_accent_color">Accent</string>
 
     <string name="drawer_settings_header_background_scrim">Drawer</string>
     <string name="drawer_settings_header_background_gradient_glow_opacity">Glow opacity</string>
@@ -64,8 +64,14 @@
     <string name="colors_settings_background">Background</string>
     <string name="drawer_settings_dock_background_title">Dock background</string>
 
+    <string name="drawer_settings_tab_all_title">All</string>
+    <string name="drawer_settings_tabs_sub_title">Tabs</string>
     <string name="drawer_settings_folder_tweaks">Folder</string>
+    <string name="drawer_settings_folder_config_sub_title">Configuration</string>
+    <string name="drawer_settings_folders_sub_title">Folders</string>
     <string name="drawer_settings_folder_background_title">Folder background</string>
+    <string name="drawer_settings_show_folders_first">Show folders first</string>
+    <string name="drawer_settings_show_apps_in_folders_in_app_list">Show apps in folders in the drawer</string>
 
     <string name="drawer_settings_drawer_scroll_indicator">Indicator color</string>
     <string name="drawer_settings_drawer_scroll_indicator_title">Scroll indicator</string>
@@ -88,25 +94,26 @@
     <string name="dock_iconography_title">Dock</string>
     <string name="workspace_iconography_title">Desktop</string>
     <string name="appdrawer_iconography_title">Drawer</string>
+    <string name="folder_iconography_title">Folder</string>
 
     <string name="theming_category_icon_style">Icon style</string>
     <string name="theming_category_notification_style">Notification indicator</string>
 
-    <string name="typography_workspace_icon_title">Desktop icons</string>
-    <string name="typography_dock_icon_title">Dock icons</string>
-    <string name="typography_drawer_icon_title">Drawer icons</string>
-    <string name="typography_icon_show_title">Show icon text</string>
-    <string name="typography_drawer_text_color_title">Icon customization</string>
-    <string name="typography_drawer_text_color_summary">Enabling this will allow custom icon changes</string>
-    <string name="typography_drawer_icon_size_title">Icon size</string>
-    <string name="typography_drawer_text_color_picker">Label color</string>
-    <string name="typography_drawer_text_size">Label size</string>
-    <string name="typography_drawer_two_line_title">Enable multiple lines for labels</string>
-    <string name="typography_drawer_two_line_summary">Uses multiple lines in case the first line does not fit the whole label</string>
-    <string name="typography_drawer_text_shadow_title">Show text shadow</string>
-    <string name="typography_drawer_text_shadow_summary">Displays a dark shadow to emphasize the text</string>
+    <string name="iconography_workspace_icon_title">Desktop icons</string>
+    <string name="iconography_dock_icon_title">Dock icons</string>
+    <string name="iconography_drawer_icon_title">Drawer icons</string>
+    <string name="iconography_folder_icon_title">Folder icons</string>
+    <string name="iconography_icon_show_title">Show icon text</string>
+    <string name="iconography_drawer_icon_customization_title">Icon customization</string>
+    <string name="iconography_drawer_icon_customization_summary">Enabling this will allow custom icon changes</string>
+    <string name="iconography_drawer_icon_size_title">Icon size</string>
+    <string name="iconography_drawer_text_color_picker">Label color</string>
+    <string name="iconography_drawer_text_size">Label size</string>
+    <string name="iconography_drawer_two_line_title">Multiple lines for labels</string>
+    <string name="iconography_drawer_two_line_summary">Uses multiple lines in case the first line does not fit the whole label</string>
+    <string name="iconography_drawer_text_shadow_title">Show text shadow</string>
+    <string name="iconography_drawer_text_shadow_summary">Displays a dark shadow to emphasize the text</string>
     <string name="font_load_failed">Failed to load font from Downloads due to an Android API issue. Please use another file manager.</string>
-
     <string name="iconography_custom_text_color_toggle">Text color</string>
 
     <string name="icon_preview_title">Preview</string>
@@ -143,6 +150,7 @@
     <string name="interface_subsection_drawer">Drawer</string>
     <string name="interface_subsection_dock">Dock</string>
     <string name="interface_subsection_other">Other</string>
+    <string name="interface_subsection_overview">Overview</string>
 
     <!-- Hidden apps -->
     <string name="pref_pages_hidden_section">Hidden apps</string>
@@ -158,16 +166,17 @@
     <string name="launcher_hidden_dashboard_no_name">Do not hide</string>
     <string name="launcher_hidden_dashboard_iconpacks_name">Hide icon pack dashboards only</string>
     <string name="launcher_hidden_dashboard_subspack_name">Hide substratum dashboards only</string>
-    <string name="launcher_hidden_dashboard_all_value" formatted="false">all_dashboards</string>
-    <string name="launcher_hidden_dashboard_no_value" formatted="false">no_dashboards</string>
-    <string name="launcher_hidden_dashboard_iconpacks_value" formatted="false">icon_pack_dashboards</string>
-    <string name="launcher_hidden_dashboard_subspack_value" formatted="false">substratum_dashboards</string>
 
     <!-- Main Category: Interface -->
     <!-- Subcategory: Desktop -->
     <string name="title_show_google_app">Display Google Feed</string>
-    <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
+    <string name="pref_show_google_now_summary" translatable="false">@string/msg_minus_one_on_left</string>
     <string name="msg_minus_one_on_left">To the left of the main desktop</string>
+    <string name="msg_minus_one_on_left_disabled">Requires Hyperion Dock, tap for more info</string>
+    <string name="google_companion_dialog_title">Google Feed Integration</string>
+    <string name="google_companion_dialog_message">To get Google Feed on your desktop, you must install the \"hyperion dock\" app.\n\nIt must be manually downloaded and installed due to technical reasons imposed by Google.</string>
+    <string name="google_companion_dialog_button">Get Hyperion Dock</string>
+    <string name="google_companion_dialog_url" translatable="false">https://kutt.it/hyperiondock</string>
 
     <string name="pages_lock_desktop">Lock desktop</string>
     <string name="pages_lock_desktop_summary">Locks icon and widget movement on long press</string>
@@ -179,7 +188,7 @@
     <string name="pages_scroll_wallpaper_title">Scrolling wallpaper</string>
     <string name="pages_scroll_wallpaper_summary">The wallpaper will scroll while swiping through pages</string>
 
-    <string name="status_bar_color_title">Status and navigation bar icon coloring</string>
+    <string name="status_bar_color_title">Status and navigation bar icon colors</string>
     <string name="status_bar_color_default_name">Wallpaper/Theme-based</string>
     <string name="status_bar_color_default_value" translatable="false">status_bar_auto</string>
     <string name="status_bar_color_light_name">Force light icons</string>
@@ -194,28 +203,43 @@
     <string name="summary_app_suggestions">Show frequently used apps at the top of the drawer</string>
 
     <string name="pref_pages_folder_section">Folders</string>
-    <string name="pref_pages_folder_show_folder_name_on_expand">Show folder name on expand</string>
+    <string name="pref_pages_folder_show_folder_name_on_expand_title">Show name</string>
+    <string name="pref_pages_folder_show_folder_name_on_expand_summary">when you open a folder</string>
 
     <!-- Main Category: Interface -->
     <!-- Subcategory: Drawer -->
     <string name="pages_enable_drawer_navbar_tint">Navigation bar tint</string>
     <string name="pages_enable_drawer_navbar_tint_summary">Displays a tint on the navigation bar while the app drawer is shown</string>
-    <string name="pages_enable_drawer_blur">Enable blur</string>
-    <string name="pages_enable_drawer_blur_summary">Creates a blur effect behind the app drawer background. This will not work with live wallpapers.</string>
-    <string name="pages_enable_dock_blur_summary">Creates a blur effect behind the dock background. This will not work with live wallpapers.</string>
-    <string name="pages_blur_permission">To enable blur, enable storage permissions.</string>
+    <string name="pages_enable_drawer_blur">Blur</string>
+    <string name="pages_enable_drawer_blur_summary">Creates a blur effect behind the app drawer background.\nCan\'t be used with live wallpapers.</string>
+    <string name="pages_enable_dock_blur_summary">Creates a blur effect behind the dock background.\nCan\'t be used with live wallpapers or in landscape mode.</string>
+    <string name="pages_drawer_blur_permission">To enable, tap here to grant the storage permission.\nCan\'t be used with live wallpapers.</string>
+    <string name="pages_dock_blur_permission">To enable, tap here to grant the storage permission.\nCan\'t be used with live wallpapers or in landscape mode.</string>
     <string name="pages_drawer_blur_strength">Blur strength</string>
     <string name="pages_enable_app_installation_progress">Promise installation status (BETA)</string>
     <string name="pages_enable_app_installation_progress_summary">Show the progress of an updating app on the icon if applicable</string>
+    <string name="pages_drawer_tabs">Tabs</string>
+    <string name="pages_drawer_tabs_add">Add new tab</string>
+    <string name="pages_drawer_tabs_rename">Rename tab</string>
+    <string name="pages_drawer_tabs_remove">Delete app drawer tabs</string>
+    <string name="pages_drawer_folders">Folders</string>
+    <string name="pages_drawer_folder_add">Add new folder</string>
+    <string name="pages_drawer_folder_rename">Rename folder</string>
+    <string name="pages_drawer_folder_remove">Delete app drawer folders</string>
     <string name="pages_close_drawer_on_pause">Automatically close</string>
     <string name="pages_close_drawer_on_pause_summary">When an app is launched, pressing back will no longer keep the drawer open</string>
-    <string name="pages_overview_customization">Long-press menu (Overview)</string>
-    <string name="pages_overview_customization_summary">Customize the contents of the Overview menu</string>
-    <string name="pages_remember_drawer_position">Remember app drawer position</string>
+    <string name="pages_lock_mode">Screen lock mode</string>
+    <string name="pages_lock_mode_default_forced">Only \"%s\" supported on this Android version</string>
+    <string name="pages_lock_mode_device_admin">Device admin</string>
+    <string name="pages_lock_mode_accessibility">Accessibility</string>
+    <string name="pages_lock_mode_root">Rooted</string>
+    <string name="pages_overview_customization">Long press menu</string>
+    <string name="pages_overview_customization_summary">Customize the contents</string>
+    <string name="pages_remember_drawer_position">Remember drawer position</string>
     <string name="pages_remember_drawer_position_summary">Don\'t reset back to the first page after turning off the screen</string>
     <string name="app_search_prediction_divider_title">App suggestions divider</string>
     <string name="app_search_prediction_none">Hidden</string>
-    <string name="app_search_prediction_value" translatable="false">none</string>
+    <string name="app_search_prediction_none_value" translatable="false">none</string>
     <string name="app_search_prediction_o">Line style</string>
     <string name="app_search_prediction_o_value" translatable="false">o</string>
     <string name="app_search_prediction_p">Text style</string>
@@ -235,7 +259,7 @@
     <string name="pages_show_dock_indicator">Dock indicator</string>
     <string name="pages_show_app_drawer_icon">App drawer icon</string>
     <string name="pages_show_app_drawer_icon_summary">Shows the legacy app drawer icon</string>
-    <string name="pages_enable_dock_shadow">Enable dock shadow</string>
+    <string name="pages_enable_dock_shadow">Shadow</string>
     <string name="pages_enable_dock_shadow_summary">Displays a shadow on top of the dock to separate the dock from the wallpaper</string>
 
     <string name="indicator_style_title">Indicator style</string>
@@ -250,6 +274,10 @@
     <string name="page_indicator_mode_workspace">Show with desktop only</string>
     <string name="page_indicator_mode_hidden">Hidden</string>
 
+    <string name="interface_dock_height_toggle">Custom height</string>
+    <string name="interface_dock_height_toggle_summary">Change the height of the dock</string>
+    <string name="interface_dock_height">Dock height</string>
+
     <string name="dock_mode_title">Dock style</string>
     <string name="dock_mode_o_name">Flat</string>
     <string name="dock_mode_o_value" translatable="false">dock_o</string>
@@ -258,7 +286,7 @@
     <string name="dock_mode_hidden_name">Hidden</string>
     <string name="dock_mode_hidden_value" translatable="false">hidden</string>
 
-    <string name="dock_two_row_title">Two row dock</string>
+    <string name="dock_two_row_title">Two rows</string>
     <string name="dock_two_row_summary">Show two rows in the dock</string>
 
     <string name="pref_dock_icon_count">Icon count</string>
@@ -284,16 +312,21 @@
     <string name="gesture_action_qs_pulldown">Show notifications</string>
     <string name="gesture_action_qs_expand">Show quick settings</string>
     <string name="gesture_action_custom_app">Launch app</string>
+    <string name="gesture_action_custom_app_dynamic" formatted="false">Launch %1$s</string>
     <string name="gesture_action_all_apps">Show app drawer</string>
     <string name="gesture_action_open_assistant">Google Assistant</string>
     <string name="gesture_action_google_search">Search</string>
     <string name="gesture_action_show_overview">Show overview</string>
-    <string name="gesture_action_lock_screen_admin">Lock device</string>
+    <string name="gesture_action_lock_screen_admin">Lock screen</string>
     <string name="gesture_action_show_iconpack">Show icon pack selector</string>
     <string name="gesture_action_launcher_settings">Launcher settings</string>
     <string name="gesture_action_default_page">Default page</string>
     <string name="gesture_action_google_page">Google Now</string>
+    <string name="gesture_action_app_search">App search</string>
     <string name="gesture_action_root">Lock screen using root</string>
+    <string name="gesture_action_accessibility">Lock screen using a accessibility service</string>
+    <string name="accessibility_service_desc">hyperion uses this service to allow locking your device in a manner that does not disable fingerprint authentication</string>
+    <string name="accessibility_service_toast">Select hyperion in the list and enable the service for screen lock gestures to work</string>
     <string name="edit_page_text">Edit pages</string>
     <string name="device_admin_request_desc">%s uses device administrator permissions to be able to lock your screen with gestures.</string>
     <string name="device_admin_desc">Allow the launcher to lock your screen with gestures.</string>
@@ -319,10 +352,10 @@
 
     <!-- Smartspace date and time -->
     <!-- Keeping track of seconds is insanity in terms of processing, DO NOT ADD THEM HERE -->
-    <string name="icu_abbrev_time">HH:mm</string>
-    <string name="icu_abbrev_time_12hr">hh:mm a</string>
-    <string name="icu_abbrev_time_date">HH:mm, dd MMMM</string>
-    <string name="icu_abbrev_time_date_12hr">hh:mm a, dd MMMM</string>
+    <string name="icu_abbrev_time" translatable="false">HH:mm</string>
+    <string name="icu_abbrev_time_12hr" translatable="false">hh:mm a</string>
+    <string name="icu_abbrev_time_date" translatable="false">HH:mm, dd MMMM</string>
+    <string name="icu_abbrev_time_date_12hr" translatable="false">hh:mm a, dd MMMM</string>
     <string name="smartspace_time_title">Display time in widget</string>
     <string name="smartspace_date_title">Display both time and date in widget</string>
     <string name="smartspace_all_day">All day</string>
@@ -338,13 +371,13 @@
     <!-- Smartspace events -->
     <string name="smartspace_preferences">Preferences</string>
     <string name="smartspace_events_label">Display calendar events</string>
+    <string name="smartspace_events_disabled_on_dock">Not available in dock</string>
     <string name="smartspace_events_picker_label">Calendars to be shown</string>
     <string name="smartspace_events_picker_summary">Events will only show from the selected calendars</string>
 
+    <string name="smartspace_weather_label">Display weather</string>
     <string name="weather_provider_title">Weather provider</string>
     <string name="weather_provider_owm_title">Location</string>
-    <string name="weather_provider_disable">Disable</string>
-    <string name="weather_provider_disable_value" translatable="false">disable</string>
     <string name="weather_provider_awareness">Google Awareness API</string>
     <string name="weather_provider_awareness_value" translatable="false">use_google_awareness</string>
     <string name="weather_provider_owm">OpenWeatherMap</string>
@@ -353,18 +386,18 @@
     <string name="weather_degrees_title">Temperature units</string>
     <string name="weather_degrees_celsius_name">Celsius (\u00B0C)</string>
     <string name="weather_degrees_celsius_value" translatable="false">use_celsius</string>
-    <string name="weather_degrees_celsius" formatted="false">%s \u00B0C</string>
+    <string name="weather_degrees_celsius" translatable="false" formatted="false">%s \u00B0C</string>
     <string name="weather_degrees_fahrenheit_name">Fahrenheit (\u00B0F)</string>
     <string name="weather_degrees_fahrenheit_value" translatable="false">use_fahrenheit</string>
-    <string name="weather_degrees_fahrenheit" formatted="false">%s \u00B0F</string>
+    <string name="weather_degrees_fahrenheit" translatable="false" formatted="false">%s \u00B0F</string>
 
     <string name="calendar_to_launch">Launch app on widget click</string>
     <string name="calendar_to_launch_summary">None</string>
 
-    <string name="title_missing_calendar_access">Calendar access needed</string>
-    <string name="title_missing_location_access">Location access needed</string>
-    <string name="msg_missing_calendar_access">To show events, turn on access for calendar for <xliff:g id="name" example="My App">%1$s</xliff:g> so the widget will show your next event.</string>
-    <string name="msg_missing_location_access">To show weather, turn on access for location for <xliff:g id="name" example="My App">%1$s</xliff:g> so the desktop shows an accurate weather for your present location.</string>
+    <string name="title_missing_calendar_permission">Calendar permission needed</string>
+    <string name="title_missing_location_permission">Location permission needed</string>
+    <string name="msg_missing_calendar_permission">To show events, grant the calendar permission to <xliff:g id="name" example="My App">%1$s</xliff:g>.</string>
+    <string name="msg_missing_location_permission">To show accurate weather conditions for your present location, grant the location permission to <xliff:g id="name" example="My App">%1$s</xliff:g></string>
 
     <string name="pref_qsb_mic">Show assistant icon</string>
     <string name="pref_qsb_colored_icon">Show accent-colored icons</string>
@@ -397,6 +430,9 @@
     <string name="fingerprint_preference_title">Fingerprint checksum</string>
     <string name="fingerprint_toast_copied">Copied to clipboard!</string>
     <string name="installed_by_preference_title">Installed by</string>
+    <string name="updated_by_preference_title">Updated by</string>
+    <string name="installed_by_system">Android System</string>
+    <string name="installed_by_adb">ADB</string>
     <string name="open_in_system_settings_preference_title">Open app info in Settings</string>
     <string name="open_in_system_settings_preference_message">Display more information about this app</string>
     <string name="app_info_loading">Loading&#8230;</string>
@@ -454,7 +490,7 @@
     <string name="next">Next</string>
     <string name="back">Back</string>
     <string name="finish">Finish</string>
-    <string name="intro_slide_title" formatted="false">%1$s</string>
+    <string name="intro_slide_title" translatable="false" formatted="false">%1$s</string>
     <string name="intro_slide_desc_1">highly customizable</string>
     <string name="intro_slide_desc_2">smooth and fast</string>
     <string name="intro_slide_desc_3">intricately designed</string>
@@ -493,6 +529,11 @@
 
     <!-- Notification badges -->
     <string name="notification_indicator_style_title">Notification indicator style</string>
+    <string name="notification_indicator_size_switch">Custom notification indicator size</string>
+    <string name="notification_indicator_size">Indicator size</string>
+    <string name="notification_indicator_style_dot">Dot</string>
+    <string name="notification_indicator_style_text">Number</string>
+
     <string name="notification_badge_placement">Dot placement</string>
     <string name="notification_badge_placement_top_right">Top right</string>
     <string name="notification_badge_placement_top_left">Top left</string>
@@ -507,6 +548,7 @@
     <string name="folder_cover_hide_icon">Hide cover icon</string>
 
     <!-- IAP -->
+    <string name="iap_no_connection">Please connect to the internet so the pro status can be verified</string>
     <string name="play_store">Continue</string>
     <string name="pro_title">Uh-oh!</string>
     <string name="pro_title_description">Seems like you just stumbled on a feature specially made for plus users!\n\nYou can get the full Hyperion experience with a one-time upgrade.\n\nStill seeing this message after you upgraded? Press continue to refresh your upgrade status.</string>
@@ -560,6 +602,10 @@
     <string name="fingerprint_lock_10">10 minutes</string>
     <string name="fingerprint_lock_30">30 minutes</string>
 
+    <string name="fingerprint_lock_behavior">App lock behavior</string>
+    <string name="fingerprint_lock_behavior_app">Entire app</string>
+    <string name="fingerprint_lock_behavior_activity">Specific activity</string>
+
     <!-- Other -->
     <string name="system_settings_button_text">System settings</string>
 
@@ -583,4 +629,19 @@
 
     <string name="dw_folder_google">Google</string>
     <string name="dw_folder_projekt">Projekt</string>
+
+    <!-- Google companion version check -->
+    <string name="google_companion_version_check_title">New update!</string>
+    <string name="google_companion_version_check_msg">Get the newest \"hyperion dock\" app from APKMirror.</string>
+
+    <string name="plus_verification_failed_title">Verification failed</string>
+    <string name="plus_verification_failed_message">Cannot verify plus version status</string>
+
+    <string name="plus_verification_error_title">Verification failed</string>
+    <string name="plus_verification_error_message">Failed to verify plus version status</string>
+
+    <string name="retry">Retry</string>
+    <string name="debug_component_names_summary">Show component names in App Info view in place of package names
+    </string>
+    <string name="debug_component_names_title">Show component names</string>
 </resources>
