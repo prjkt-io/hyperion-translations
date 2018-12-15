@@ -156,7 +156,9 @@
     <string name="pref_pages_hidden_section">Hidden apps</string>
     <string name="pref_pages_hide_apps_title">Select app(s) to hide</string>
     <string name="pref_pages_hide_apps_summary">Hide and unhide apps from the drawer</string>
-    <string name="hide_app_selected">&#160; hidden</string>
+    <string name="pref_pages_hidden_apps_search_title">Hide in search</string>
+    <string name="pref_pages_hidden_apps_search_summary">Hide apps from search results</string>
+
     <string name="hidden_app">All apps shown</string>
     <string name="hide_app_sum">Hide app from the app drawer</string>
     <string name="hide_app">Hide app</string>
@@ -219,6 +221,8 @@
     <string name="pages_enable_app_installation_progress">Promise installation status (BETA)</string>
     <string name="pages_enable_app_installation_progress_summary">Show the progress of an updating app on the icon if applicable</string>
     <string name="pages_drawer_tabs">Tabs</string>
+    <string name="pages_drawer_tabs_show_all_tab">Show \"All\" tab when there are other tabs</string>
+    <string name="pages_drawer_tabs_hide_apps_in_tab">Hide apps in other tabs from the \"All\" tab</string>
     <string name="pages_drawer_tabs_add">Add new tab</string>
     <string name="pages_drawer_tabs_rename">Rename tab</string>
     <string name="pages_drawer_tabs_remove">Delete app drawer tabs</string>
@@ -359,10 +363,15 @@
     <string name="smartspace_time_title">Display time in widget</string>
     <string name="smartspace_date_title">Display both time and date in widget</string>
     <string name="smartspace_all_day">All day</string>
-    <string name="smartspace_event_hour" formatted="false">in %1$d hour</string>
-    <string name="smartspace_event_hours" formatted="false">in %1$d hours</string>
-    <string name="smartspace_event_minutes" formatted="false">in %1$d minutes</string>
-    <string name="smartspace_event_minute" formatted="false">in %1$d minute</string>
+
+    <plurals name="smartspace_event_hours">
+        <item quantity="one">in %d hour</item>
+        <item quantity="other">in %d hours</item>
+    </plurals>
+    <plurals name="smartspace_event_minutes">
+        <item quantity="one">in %d minute</item>
+        <item quantity="other">in %d minutes</item>
+    </plurals>
 
     <!-- Smartspace font -->
     <string name="smartspace_system_font_label">Use system font</string>
@@ -485,6 +494,10 @@
     <string name="debug_reset_icon_cache_summary">Reset all custom icon information back to default</string>
     <string name="debug_reset_homescreen_title">Reset desktop</string>
     <string name="debug_reset_homescreen_summary">Reset all desktop icons and widget placement back to default</string>
+
+    <string name="experimental_title">Experimental features</string>
+    <string name="experimental_force_keep_all_pages_title">Prevent pages from deleting itself</string>
+    <string name="experimental_force_keep_all_pages_summary">Force keep all screens on devices that force delete on launcher refresh, designed for devices with slower PackageManager APIs. Uninstalling icons from the home screens will require a restart.</string>
 
     <!-- Intro activity -->
     <string name="next">Next</string>
