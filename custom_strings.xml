@@ -63,15 +63,10 @@
     <string name="drawer_settings_dock_tweaks">Dock</string>
     <string name="colors_settings_background">Background</string>
     <string name="drawer_settings_dock_background_title">Dock background</string>
+    <string name="drawer_settings_dock_indicator_title">Dock indicator color</string>
 
-    <string name="drawer_settings_tab_all_title">All</string>
-    <string name="drawer_settings_tabs_sub_title">Tabs</string>
-    <string name="drawer_settings_folder_tweaks">Folder</string>
-    <string name="drawer_settings_folder_config_sub_title">Configuration</string>
-    <string name="drawer_settings_folders_sub_title">Folders</string>
+    <string name="settings_folder_title">Folder</string>
     <string name="drawer_settings_folder_background_title">Folder background</string>
-    <string name="drawer_settings_show_folders_first">Show folders first</string>
-    <string name="drawer_settings_show_apps_in_folders_in_app_list">Show apps in folders in the drawer</string>
 
     <string name="drawer_settings_drawer_scroll_indicator">Indicator color</string>
     <string name="drawer_settings_drawer_scroll_indicator_title">Scroll indicator</string>
@@ -94,7 +89,7 @@
     <string name="dock_iconography_title">Dock</string>
     <string name="workspace_iconography_title">Desktop</string>
     <string name="appdrawer_iconography_title">Drawer</string>
-    <string name="folder_iconography_title">Folder</string>
+    <string name="folder_iconography_title" translatable="false">@string/settings_folder_title</string>
 
     <string name="theming_category_icon_style">Icon style</string>
     <string name="theming_category_notification_style">Notification indicator</string>
@@ -187,6 +182,10 @@
     <string name="pages_lock_desktop_neutral">Temporary</string>
     <string name="pages_lock_desktop_negative">Disable</string>
     <string name="pages_lock_desktop_positive">Ignore</string>
+    <string name="pages_full_width_widgets">Full width widgets</string>
+    <string name="pages_full_width_widgets_summary">Removes horizontal padding from widgets allowing them to fill the whole width</string>
+    <string name="pages_padding_page">Homescreen padding</string>
+    <string name="pages_padding_page_summary">Adds horizontal padding to the homescreen</string>
     <string name="pages_scroll_wallpaper_title">Scrolling wallpaper</string>
     <string name="pages_scroll_wallpaper_summary">The wallpaper will scroll while swiping through pages</string>
 
@@ -205,33 +204,28 @@
     <string name="summary_app_suggestions">Show frequently used apps at the top of the drawer</string>
 
     <string name="pref_pages_folder_section">Folders</string>
-    <string name="pref_pages_folder_show_folder_name_on_expand_title">Show name</string>
-    <string name="pref_pages_folder_show_folder_name_on_expand_summary">when you open a folder</string>
+    <string name="pref_pages_folder_show_folder_name_on_expand_title">Show folder title</string>
+    <string name="pref_pages_folder_show_folder_name_on_expand_summary">Show the title of the folder when opening the folder</string>
 
     <!-- Main Category: Interface -->
     <!-- Subcategory: Drawer -->
     <string name="pages_enable_drawer_navbar_tint">Navigation bar tint</string>
     <string name="pages_enable_drawer_navbar_tint_summary">Displays a tint on the navigation bar while the app drawer is shown</string>
     <string name="pages_enable_drawer_blur">Blur</string>
-    <string name="pages_enable_drawer_blur_summary">Creates a blur effect behind the app drawer background.\nCan\'t be used with live wallpapers.</string>
-    <string name="pages_enable_dock_blur_summary">Creates a blur effect behind the dock background.\nCan\'t be used with live wallpapers or in landscape mode.</string>
-    <string name="pages_drawer_blur_permission">To enable, tap here to grant the storage permission.\nCan\'t be used with live wallpapers.</string>
-    <string name="pages_dock_blur_permission">To enable, tap here to grant the storage permission.\nCan\'t be used with live wallpapers or in landscape mode.</string>
+    <string name="pages_enable_drawer_blur_summary">Creates a blur effect behind the app drawer background</string>
+    <string name="pages_enable_dock_blur_summary">Creates a blur effect behind the dock background</string>
+    <string name="pages_blur_permission">To enable, tap here to grant the storage permission</string>
+    <string name="pages_blur_limitations_lwp">Can\'t be used with live wallpapers</string>
+    <string name="pages_blur_limitations_land">or in landscape mode</string>
     <string name="pages_drawer_blur_strength">Blur strength</string>
     <string name="pages_enable_app_installation_progress">Promise installation status (BETA)</string>
     <string name="pages_enable_app_installation_progress_summary">Show the progress of an updating app on the icon if applicable</string>
     <string name="pages_drawer_tabs">Tabs</string>
-    <string name="pages_drawer_tabs_show_all_tab">Show \"All\" tab when there are other tabs</string>
-    <string name="pages_drawer_tabs_hide_apps_in_tab">Hide apps in other tabs from the \"All\" tab</string>
-    <string name="pages_drawer_tabs_add">Add new tab</string>
-    <string name="pages_drawer_tabs_rename">Rename tab</string>
-    <string name="pages_drawer_tabs_remove">Delete app drawer tabs</string>
     <string name="pages_drawer_folders">Folders</string>
-    <string name="pages_drawer_folder_add">Add new folder</string>
-    <string name="pages_drawer_folder_rename">Rename folder</string>
-    <string name="pages_drawer_folder_remove">Delete app drawer folders</string>
     <string name="pages_close_drawer_on_pause">Automatically close</string>
     <string name="pages_close_drawer_on_pause_summary">When an app is launched, pressing back will no longer keep the drawer open</string>
+    <string name="pages_show_drawer_scroll_indicator">Display drawer scroll indicator</string>
+    <string name="pages_show_drawer_scroll_indicator_summary">Shows the scroll indicator to quickly scroll between different sections of the app drawer</string>
     <string name="pages_lock_mode">Screen lock mode</string>
     <string name="pages_lock_mode_default_forced">Only \"%s\" supported on this Android version</string>
     <string name="pages_lock_mode_device_admin">Device admin</string>
@@ -255,6 +249,25 @@
     <string name="custom_drawer_background_glow_color_bottom_title">Bottom glow</string>
     <string name="custom_drawer_background_title">Drawer background</string>
     <string name="custom_drawer_background_color_opacity_title">Background opacity</string>
+    <string name="drawer_folders_title">Drawer folders</string>
+    <string name="drawer_tabs_title">Drawer tabs</string>
+    <string name="drawer_folders_current_title">Current folders</string>
+    <string name="drawer_current_tabs_title">Current tabs</string>
+    <string name="pages_drawer_folder_add">Add new folder</string>
+    <string name="pages_drawer_folder_rename">Rename folder</string>
+    <string name="pages_drawer_folder_remove">Delete folder</string>
+    <string name="pages_drawer_tabs_add">Add new tab</string>
+    <string name="pages_drawer_tabs_rename">Rename tab</string>
+    <string name="pages_drawer_tabs_remove">Delete tab</string>
+    <string name="drawer_tab_all_title">All</string>
+    <string name="drawer_folders_show_first_title">Show first</string>
+    <string name="drawer_folders_show_first_summary">Folders will appear before the alphabetical app list</string>
+    <string name="drawer_folders_keep_apps">Keep apps in drawer</string>
+    <string name="drawer_tabs_show_all_tab_title">Show \"All\"</string>
+    <string name="drawer_tabs_show_all_tab_summary">when there are other tabs</string>
+    <string name="drawer_tabs_hide_duplicate_title">Hide duplicate apps</string>
+    <string name="drawer_tabs_hide_duplicate_summary">Remove apps from \"All\", if they get added to another tab</string>
+    <string name="drawer_folders_tabs_confirm_swipe_remove">Do you really want to delete it?</string>
 
     <!-- Main Category: Interface -->
     <!-- Subcategory: Dock -->
@@ -277,6 +290,12 @@
     <string name="page_indicator_mode_dock">Show with dock only</string>
     <string name="page_indicator_mode_workspace">Show with desktop only</string>
     <string name="page_indicator_mode_hidden">Hidden</string>
+
+    <string name="pages_status_navigation_bars">Immersive mode</string>
+    <string name="page_show_both">Disabled</string>
+    <string name="page_hide_both">Enabled</string>
+    <string name="page_show_status_bar">Hide navigation bar only</string>
+    <string name="page_show_navigation_bar">Hide status bar only</string>
 
     <string name="interface_dock_height_toggle">Custom height</string>
     <string name="interface_dock_height_toggle_summary">Change the height of the dock</string>
@@ -469,6 +488,7 @@
     <string name="share_briefing" formatted="false">Send %1$s backup to&#8230;</string>
     <string name="share_subject" formatted="false">My %1$s backup</string>
     <string name="share_content" formatted="false">Here is my %1$s profile named \"%2$s\"</string>
+    <string name="restore_association">Apply Hyperion Profile</string>
     <string name="restore">Apply</string>
     <string name="restore_apply">Apply profile</string>
     <string name="restore_loading">Applying profile&#8230;</string>
@@ -494,10 +514,6 @@
     <string name="debug_reset_icon_cache_summary">Reset all custom icon information back to default</string>
     <string name="debug_reset_homescreen_title">Reset desktop</string>
     <string name="debug_reset_homescreen_summary">Reset all desktop icons and widget placement back to default</string>
-
-    <string name="experimental_title">Experimental features</string>
-    <string name="experimental_force_keep_all_pages_title">Prevent pages from deleting itself</string>
-    <string name="experimental_force_keep_all_pages_summary">Force keep all screens on devices that force delete on launcher refresh, designed for devices with slower PackageManager APIs. Uninstalling icons from the home screens will require a restart.</string>
 
     <!-- Intro activity -->
     <string name="next">Next</string>
