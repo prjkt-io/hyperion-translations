@@ -38,6 +38,9 @@
     <string name="home_category_have_plus">Plus</string>
     <string name="home_category_have_plus_summary">Thanks for your support!</string>
 
+    <string name="home_category_integrations">Integrations</string>
+    <string name="home_category_integrations_summary">External app integrations</string>
+
     <string name="about_version" formatted="false">Launcher version</string>
     <string name="about_version_summary" formatted="false">%1$s_%2$s-%3$d:%4$s</string>
 
@@ -55,6 +58,8 @@
     <string name="launcher_theme_black">Black</string>
     <string name="launcher_theme_transparent">Transparent</string>
     <string name="launcher_theme_accent_color">Accent</string>
+
+    <string name="launcher_theme_search_title">Search bar</string>
 
     <string name="drawer_settings_header_background_gradient_glow_opacity">Glow opacity</string>
     <string name="drawer_settings_header_background_gradient_glow_overflow">Glow overflow</string>
@@ -84,6 +89,7 @@
     <string name="section_dock">Dock</string>
     <string name="section_desktop">Desktop</string>
     <string name="section_drawer">Drawer</string>
+    <string name="section_recents">Recents</string>
 
     <string name="theming_category_icon_style">Icon style</string>
     <string name="theming_category_notification_style">Notification indicator</string>
@@ -153,12 +159,16 @@
     <!-- Main Category: Interface -->
     <!-- Subcategory: Desktop -->
     <string name="title_show_google_app">Display Google Feed</string>
+    <string name="title_show_google_app_theme">Google Feed theme</string>
     <string name="msg_minus_one_on_left">To the left of the main desktop</string>
     <string name="msg_minus_one_on_left_disabled">Requires Hyperion Dock, tap for more info</string>
     <string name="google_companion_dialog_title">Google Feed Integration</string>
     <string name="google_companion_dialog_message">To get Google Feed on your desktop, you must install the \"hyperion dock\" app.\n\nIt must be manually downloaded and installed due to technical reasons imposed by Google.</string>
     <string name="google_companion_dialog_button">Get Hyperion Dock</string>
     <string name="google_companion_dialog_url" translatable="false">https://kutt.it/hyperiondock</string>
+    <string name="google_companion_theme_auto">Follow launcher theme</string>
+    <string name="google_companion_theme_dark">Dark</string>
+    <string name="google_companion_theme_light">Light</string>
 
     <string name="pages_lock_desktop">Desktop lock</string>
     <string name="pages_lock_desktop_summary">Locks icon and widget movement</string>
@@ -203,7 +213,9 @@
     <string name="pages_enable_app_installation_progress">Promise installation status (BETA)</string>
     <string name="pages_enable_app_installation_progress_summary">Show the progress of an updating app on the icon if applicable</string>
     <string name="pages_drawer_tabs">Tabs</string>
+    <string name="pages_drawer_tabs_empty">Tap the button below to add a tab</string>
     <string name="pages_drawer_folders">Folders</string>
+    <string name="pages_drawer_folders_empty">Tap the button below to add a folder</string>
     <string name="pages_close_drawer_on_pause">Automatically close</string>
     <string name="pages_close_drawer_on_pause_summary">When an app is launched, pressing back will no longer keep the drawer open</string>
     <string name="pages_show_drawer_scroll_indicator">Display drawer scroll indicator</string>
@@ -298,6 +310,10 @@
     <string name="pref_drawer_column_count">Columns</string>
     <string name="pref_drawer_row_count">Rows</string>
 
+    <!-- Main Category: Interface -->
+    <!-- Subcategory: Recents -->
+    <string name="pref_task_corner_radius">Task corner radius</string>
+
     <!-- Gestures -->
     <string name="homescreen_gestures_haptic">Gesture feedback</string>
     <string name="homescreen_gestures_haptic_summary">On succession of each gesture, gently vibrate the device.</string>
@@ -318,6 +334,7 @@
     <string name="gesture_action_all_apps">Show app drawer</string>
     <string name="gesture_action_open_assistant">Google Assistant</string>
     <string name="gesture_action_google_search">Search</string>
+    <string name="gesture_action_sesame_search">Sesame search</string>
     <string name="gesture_action_show_overview">Show overview</string>
     <string name="gesture_action_lock_screen_admin">Lock screen</string>
     <string name="gesture_action_show_iconpack">Show icon pack selector</string>
@@ -326,6 +343,7 @@
     <string name="gesture_action_default_page">Default page</string>
     <string name="gesture_action_google_page">Google Now</string>
     <string name="gesture_action_app_search">App search</string>
+    <string name="gesture_action_hide_content">Hide/show home screen items</string>
     <string name="gesture_action_root">Lock screen using root</string>
     <string name="gesture_action_accessibility">Lock screen using a accessibility service</string>
     <string name="accessibility_service_desc">hyperion uses this service to allow locking your device in a manner that does not disable fingerprint authentication</string>
@@ -647,4 +665,20 @@
     </string>
     <string name="debug_component_names_title">Show component names</string>
 
+    <!-- Sesame -->
+    <string name="sesame">Sesame shortcuts</string>
+    <string name="sesame_shortcut">App configuration</string>
+    <string name="sesame_not_installed">Sesame Shortcuts not installed</string>
+    <string name="sesame_not_installed_summary">Click to install Sesame shortcuts</string>
+    <string name="sesame_integration_configuration">Sesame settings</string>
+    <string name="sesame_integration_configuration_summary">Configure more Sesame settings inside the app</string>
+    <string name="sesame_integration_longpress">Shortcuts in menu</string>
+    <string name="sesame_integration_qsb">Shortcuts in App Search</string>
+    <string name="sesame_integration_workspace">Shortcuts in home screen search bar</string>
+    <string name="sesame_integration_longpress_summary">Sesame shortcuts will appear in the menu when long-pressing on an app icon</string>
+    <string name="sesame_integration_qsb_summary">Sesame shortcuts will appear as results when searching for an app in the app drawer search bar</string>
+    <string name="sesame_integration_workspace_summary">Sesame shortcuts will appear as results when searching for an app in the home screen search bar</string>
+    <string name="sesame_integration_gesture_request">Home button action for Sesame Search</string>
+    <string name="sesame_integration_gesture_request_change">Change</string>
+    <string name="sesame_integration_gesture_request_summary">For easy access to Sesame we recommend triggering it using the home button. This will override your current setting for the home button gesture.</string>
 </resources>
