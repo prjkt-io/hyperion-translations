@@ -34,7 +34,23 @@
     <string name="home_category_misc">hyperion</string>
     <string name="home_category_get_plus_prefix" formatted="false">Launcher status: %1$s</string>
     <string name="home_category_get_plus_unregistered">Free</string>
-    <string name="home_category_get_plus_summary">Click to upgrade!</string>
+    <string name="home_category_get_plus_summary">Click for more information</string>
+    <string name="home_category_get_plus_iap">In-app</string>
+    <string name="home_category_get_plus_play">Play Store</string>
+    <string name="home_category_get_plus_dialog_title">Hyperion Supreme</string>
+    <string name="home_category_get_plus_dialog_summary">Upgrade to Hyperion Supreme for many features such as:\n\n
+        &#8226; Gestures\n
+        &#8226; Deeper icon customizations\n
+        &#8226; Custom launcher font using .ttf files\n
+        &#8226; Disabling app suggestions\n
+        &#8226; Two row dock\n
+        &#8226; Smart widget customizations\n
+        &#8226; and many more!\n\n
+        &#8230;as well as to support our development work for the community!\n
+        \nBoth In-App and Play Store methods of achieving Pro status will unlock the same amount of features as each other.</string>
+    <string name="home_category_get_plus_play_failed_title">Hmmm&#8230;Pro not activated?</string>
+    <string name="home_category_get_plus_play_failed_summary">Make sure both the Supreme addon and Hyperion launcher were both installed by Play Store in order to verify your purchase.</string>
+    <string name="home_category_get_plus_play_failed_try_again">Try again</string>
     <string name="home_category_have_plus">Plus</string>
     <string name="home_category_have_plus_summary">Thanks for your support!</string>
 
@@ -89,7 +105,7 @@
     <string name="section_dock">Dock</string>
     <string name="section_desktop">Desktop</string>
     <string name="section_drawer">Drawer</string>
-    <string name="section_recents">Recents</string>
+    <string name="section_recents">Quickstep / Recents</string>
 
     <string name="theming_category_icon_style">Icon style</string>
     <string name="theming_category_notification_style">Notification indicator</string>
@@ -260,6 +276,8 @@
     <string name="drawer_tabs_hide_duplicate_title">Hide duplicate apps</string>
     <string name="drawer_tabs_hide_duplicate_summary">Remove apps from \"All\", if they get added to another tab</string>
     <string name="drawer_folders_tabs_confirm_swipe_remove">Do you really want to delete it?</string>
+    <string name="drawer_folders_experimental_padding">Use default Google padding</string>
+    <string name="drawer_folders_experimental_padding_summary">Disabling this will hide the excess padding that Google sets between the tabs and the drawer items</string>
 
     <!-- Main Category: Interface -->
     <!-- Subcategory: Dock -->
@@ -313,6 +331,16 @@
     <!-- Main Category: Interface -->
     <!-- Subcategory: Recents -->
     <string name="pref_task_corner_radius">Task corner radius</string>
+    <string name="section_recent_tasks">Recent task cards</string>
+    <string name="section_recent_tasks_bg_blur">Blur</string>
+    <string name="section_recent_tasks_bg_blur_summary">Creates a blur effect behind the recents task cards</string>
+
+    <string name="section_recent_homescreen">Home screen</string>
+    <string name="section_recent_homescreen_return_anim">Return home app icon animation</string>
+    <string name="section_recent_homescreen_return_anim_summary">Animate the app window back into the icon on home button press</string>
+    <string name="section_recent_navigation">Navigation</string>
+    <string name="section_recent_navbar_swipe_trigger">Navigation bar swipe to Recents</string>
+    <string name="section_recent_navbar_swipe_trigger_summary">Trigger the recents only when swiping up from the navigation bar instead of the dock</string>
 
     <!-- Gestures -->
     <string name="homescreen_gestures_haptic">Gesture feedback</string>
@@ -564,7 +592,8 @@
     <string name="iap_no_connection">Please connect to the internet so the pro status can be verified</string>
     <string name="play_store">Continue</string>
     <string name="pro_title">Uh-oh!</string>
-    <string name="pro_title_description">Seems like you just stumbled on a feature specially made for plus users!\n\nYou can get the full Hyperion experience with a one-time upgrade.\n\nStill seeing this message after you upgraded? Press continue to refresh your upgrade status.</string>
+    <string name="pro_title_description">Seems like you just stumbled on a feature specially made for plus users!\n\nYou can get the full Hyperion experience with a one-time upgrade.\n\nStill seeing this message after you upgraded? Press Refresh to refresh your upgrade status.</string>
+    <string name="pro_title_refresh">Refresh</string>
     <string name="pro_title_error">Oh no!</string>
     <string name="pro_title_error_description">It seems that we ran into some issues verifying your purchase.\n\nMake sure you are logged in on the correct account you purchased the upgrade from and ensure your internet connection is stable!</string>
     <string name="pro_purchase_verified">You\'re awesome!</string>
@@ -672,7 +701,7 @@
     <string name="sesame_not_installed_summary">Click to install Sesame shortcuts</string>
     <string name="sesame_integration_configuration">Sesame settings</string>
     <string name="sesame_integration_configuration_summary">Configure more Sesame settings inside the app</string>
-    <string name="sesame_integration_longpress">Shortcuts in menu</string>
+    <string name="sesame_integration_longpress">Shortcuts in long-press menu</string>
     <string name="sesame_integration_qsb">Shortcuts in App Search</string>
     <string name="sesame_integration_workspace">Shortcuts in home screen search bar</string>
     <string name="sesame_integration_longpress_summary">Sesame shortcuts will appear in the menu when long-pressing on an app icon</string>
@@ -681,4 +710,7 @@
     <string name="sesame_integration_gesture_request">Home button action for Sesame Search</string>
     <string name="sesame_integration_gesture_request_change">Change</string>
     <string name="sesame_integration_gesture_request_summary">For easy access to Sesame we recommend triggering it using the home button. This will override your current setting for the home button gesture.</string>
+
+    <!-- Quickstep UI (NOT SETTINGS) -->
+    <string name="recent_task_option_kill">Kill</string>
 </resources>
